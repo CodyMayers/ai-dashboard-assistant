@@ -1,0 +1,74 @@
+# ---------------------
+# Python
+# ---------------------
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# ---------------------
+# Virtual Environments
+# ---------------------
+venv/
+env/
+.env/
+.env.*
+
+# ---------------------
+# IDE / Editor
+# ---------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.ipynb_checkpoints/
+
+# ---------------------
+# Data / Outputs
+# ---------------------
+data/*.csv
+data/*.xlsx
+*.db
+*.sqlite
+*.parquet
+*.joblib
+*.pkl
+
+# Streamlit cache
+.streamlit/
+
+# ---------------------
+# Logs
+# ---------------------
+*.log
+logs/
+*.out
+*.err
+
+# ---------------------
+# OS Files
+# ---------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------------------
+# Ollama / Models
+# ---------------------
+models/
+*.bin
+*.pt
+*.safetensors
+
+# ---------------------
+# Deployment / Build
+# ---------------------
+__pycache__/
+*.egg-info/
+dist/
+build/
